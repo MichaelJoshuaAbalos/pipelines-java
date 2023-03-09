@@ -9,8 +9,6 @@ trigger:
 pool:
   vmImage: windows-latest
 
-$(System.Debug)
-
 steps:
 - task: Maven@4
   inputs:
@@ -22,3 +20,6 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     goals: 'package'
+
+
+$(System.Debug)    
