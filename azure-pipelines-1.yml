@@ -9,6 +9,8 @@ trigger:
 pool:
   vmImage: windows-latest
 
+$(System.Debug)
+
 steps:
 - task: Maven@4
   inputs:
