@@ -11,7 +11,7 @@ public class Sample {
             } else {
                 System.out.println(i + " is an odd number" + "\n");
             }
-            
+     
         }
 
     }
