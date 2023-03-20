@@ -11,6 +11,20 @@ public class Demo2 {
         String message = sc.nextLine();
         System.out.println(message);
 
+
+        System.out.println("-----------------------");
+        System.out.println("First 100 even numbers are: ");
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + ",");
+                if (i == 100)
+            {
+                System.out.println(i + ".");
+            }
+            }
+            
+        }
+
         sc.close();
     }
     
