@@ -10,6 +10,8 @@ public class Demo2 {
         System.out.println("Input a message");
         String message = sc.nextLine();
         System.out.println(message);
+
+        sc.close();
     }
     
 }
